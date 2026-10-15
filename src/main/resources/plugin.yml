@@ -1,0 +1,12 @@
+name: StarterPlugin
+version: 2.0.0
+description: Hub and Spleef starter minigame.
+main: me.angel.starter.StarterPlugin
+api-version: '1.21'
+commands:
+  hello:
+    description: Sends a hello message.
+    usage: /hello
+  hub:
+    description: Returns you to the hub and leaves your current queue or match.
+    usage: /hub
